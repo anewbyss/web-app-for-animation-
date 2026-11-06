@@ -12,7 +12,7 @@ See [the Unreal guide](UNREAL_GUIDE.md) for the UE 5.8 target workflow and limit
 
 ## Swift Playgrounds
 
-The app can run in a SwiftUI WKWebView wrapper on iPad or Mac. See [swift-playgrounds/README.md](swift-playgrounds/README.md). Swift Playgrounds cannot build Unreal Engine or create native MetaHuman assets.
+The app can run in a SwiftUI WKWebView wrapper on iPad or Mac. See [Swift-README.md](Swift-README.md). Swift Playgrounds cannot build Unreal Engine or create native MetaHuman assets.
 
 The interface has no external runtime dependencies. The hosted app saves a complete offline copy and supports Home Screen installation. See [offline instructions](OFFLINE.md). Projects stay on the device and are not synced. Browser data clearing removes local saves; export project JSON for backups.
 

@@ -13,14 +13,14 @@ Target version: 5.8. Editor compatibility is not yet tested. Forma is a browser 
 
 1. Open your Unreal 5.8 project and the Content Browser.
 2. Create a Forma/Textures folder, then click Import.
-3. Select assets/soft-particle.tga and assets/spark.tga from the extracted ZIP.
+3. Select soft-particle.tga and spark.tga from the extracted ZIP.
 4. Create a Material. Set Material Domain to Surface, Blend Mode to Additive, Shading Model to Unlit, and enable Two Sided.
 5. Add a Texture Sample using one imported texture. Multiply its RGB by a Vector Parameter for color, connect to Emissive Color. Connect the texture's alpha to Opacity. Save.
 6. Create a Niagara System from a sprite emitter template available in your editor. Assign the material to its Sprite Renderer. Use your Forma color, particle size, speed, and count as a visual reference; units and simulation behavior differ.
 
 ## Optional texture import script
 
-Enable Python Editor Script Plugin and Editor Scripting Utilities in Edit > Plugins, restart, and use Tools > Execute Python Script to run unreal/import_assets.py. Keep the extracted folder structure intact. It imports into /Game/Forma/Textures without overwriting existing assets. It does not create Niagara systems or materials. If your editor's APIs differ, use the manual import steps above.
+Enable Python Editor Script Plugin and Editor Scripting Utilities in Edit > Plugins, restart, and use Tools > Execute Python Script to run import_assets.py. Keep the extracted folder structure intact. It imports into /Game/Forma/Textures without overwriting existing assets. It does not create Niagara systems or materials. If your editor's APIs differ, use the manual import steps above.
 
 ## MetaHuman and motion
 

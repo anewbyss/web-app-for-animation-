@@ -1,7 +1,7 @@
 'use strict';
 // The build script injects an asset hash and a complete, relative asset list.
-const VERSION = '15a4d362e82693a0';
-const FILES = ["GENETIC_PROWESS.md", "GITHUB_PAGES.md", "OFFLINE.md", "README.md", "START_HERE.md", "UNREAL_GUIDE.md", "app.js", "assets/soft-particle.tga", "assets/spark.tga", "forma-studio.zip", "game-core.js", "game-data.js", "game.js", "icons/apple-touch-icon.png", "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png", "index.html", "manifest.webmanifest", "offline.js", "style.css", "swift-playgrounds/ContentView.swift", "swift-playgrounds/README.md", "unreal/import_assets.py"];
+const VERSION = 'flat-22aee1fb024d72d2';
+const FILES = ["ContentView.swift", "GENETIC_PROWESS.md", "GITHUB_PAGES.md", "OFFLINE.md", "README.md", "START_HERE.md", "Swift-README.md", "UNREAL_GUIDE.md", "app.js", "apple-touch-icon.png", "forma-studio.zip", "game-core.js", "game-data.js", "game.js", "icon-192.png", "icon-512.png", "import_assets.py", "index.html", "manifest.webmanifest", "maskable-512.png", "offline.js", "soft-particle.tga", "spark.tga", "style.css"];
 const BASE = new URL(self.registration.scope);
 const PREFIX = 'forma-offline-' + BASE.pathname + '--';
 const CACHE = PREFIX + VERSION;
